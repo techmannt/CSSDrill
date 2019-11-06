@@ -1,0 +1,45 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: lightgray;
+}
+
+h2, p, .readme-wrapper {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+ a:hover {
+  font-weight: bold;
+  color: yellow;
+  cursor: pointer;
+}
+
+span {
+  font-weight: bold;
+  color: orange;
+}
+
+.boxes {
+  margin: 1vw;
+  padding: 2vw;
+  border: solid orange;
+  border-radius: 5px;
+  width: 30em;
+  background-color: blueviolet;
+  display: block;
+}
+
+#box2 {
+  position: relative;
+  left: 35vw;
+  bottom: 31vh;
+}
+
+#box3 {
+  position: absolute;
+  top: 31vh;
+}
