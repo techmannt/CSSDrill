@@ -32,14 +32,3 @@ span {
   background-color: blueviolet;
   display: block;
 }
-
-#box2 {
-  position: relative;
-  left: 35vw;
-  bottom: 31vh;
-}
-
-#box3 {
-  position: absolute;
-  top: 31vh;
-}
